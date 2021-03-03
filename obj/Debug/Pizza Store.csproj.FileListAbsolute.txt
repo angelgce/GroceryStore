@@ -1,0 +1,15 @@
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\Frame.g.cs
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\App.g.cs
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore_MarkupCompile.cache
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore_MarkupCompile.lref
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore.exe
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore.pdb
+C:\Users\angel\source\repos\GroceryStore\bin\Debug\GroceryStore.exe.config
+C:\Users\angel\source\repos\GroceryStore\bin\Debug\GroceryStore.exe
+C:\Users\angel\source\repos\GroceryStore\bin\Debug\GroceryStore.pdb
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\Pizza Store.csprojAssemblyReference.cache
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\Frame.baml
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore.g.resources
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\GroceryStore.Properties.Resources.resources
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\Pizza Store.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\GroceryStore\obj\Debug\Pizza Store.csproj.CoreCompileInputs.cache

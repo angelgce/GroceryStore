@@ -1,0 +1,44 @@
+﻿<Window x:Class="GroceryStore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroceryStore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="393.813" Width="661.943">
+    <Grid x:Name="Grocery">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="177*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label Foreground="White" Content="   Select your dish" FontSize="13"  Background="#4b4b4b" HorizontalAlignment="Left" VerticalAlignment="Top" Width="607" Height="26" Margin="257,0,-148,0" Grid.ColumnSpan="2"/>
+        <Label Content="Your Order" FontSize="15" Foreground="White"  Background="#4b4b4b" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Height="26"/>
+        <Label Foreground="Black" Background="#d7d6d8 " HorizontalAlignment="Left" Margin="0,26,0,0" VerticalAlignment="Top" Height="336" Width="257">
+            <GroupBox x:Name="ticket_box" BorderBrush="Black" Header="Ticket" Height="317" Width="247"/>
+        </Label>
+        <RadioButton  x:Name="small_box" Content="Small" HorizontalAlignment="Left" Margin="274,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton  x:Name="medium_box" Content="Medium" HorizontalAlignment="Left" Margin="340,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton  x:Name="large_box" Content="Large" HorizontalAlignment="Left" Margin="408,191,0,0" VerticalAlignment="Top"/>
+        <Button IsEnabled="False" x:Name="add_food" FontWeight="Bold" Content="ADD" HorizontalAlignment="Left" Margin="274,221,0,0" VerticalAlignment="Top" Width="182" Height="25" Click="add_food_Click"/>
+        <ComboBox  x:Name="food_combo" Margin="265,34,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="207"/>
+        <Image x:Name="imageBox" HorizontalAlignment="Left"  Height="124" Margin="265,65,0,0" VerticalAlignment="Top" Width="207"/>
+        <GroupBox x:Name="ingredient_group" Header="Extra Ingredients" HorizontalAlignment="Left" Height="139" Margin="478,51,0,0" VerticalAlignment="Top" Width="135">
+            <StackPanel Margin="10,10,36,18">
+                <RadioButton x:Name="bacon_radio" GroupName="ingredient_group" Content="Bacon" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="mushrooms_radio" GroupName="ingredient_group" Content="Mushrooms" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton x:Name="onion_radio" GroupName="ingredient_group" Content="Onion" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton x:Name="pepperoni_radio" GroupName="ingredient_group" Content="Pepperoni" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton x:Name="pickels_radio" GroupName="ingredient_group" Content="Pickels" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <RadioButton x:Name="pineApple_radio" GroupName="ingredient_group" Content="PineApple" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            </StackPanel>
+
+        </GroupBox>
+        <Button IsEnabled="False" x:Name="add_ingredient" FontWeight="Bold" Content="ADD" HorizontalAlignment="Left" Margin="487,195,0,0" VerticalAlignment="Top" Width="74" Height="25" Click="add_ingredient_Click"/>
+        <TextBox x:Name="ingredient_value" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="23" Margin="566,197,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42"/>
+        <Label Visibility="Hidden" x:Name="total_label" FontSize="20" Content="TOTAL" HorizontalAlignment="Left" Margin="330,302,0,0" VerticalAlignment="Top" Width="206"/>
+
+    </Grid>
+
+
+</Window>
